@@ -1,0 +1,80 @@
+header {
+	position: fixed;
+    background-color: #42d8d8;
+    max-width: 1200px;
+	width: 100%;
+	min-height: 50px;
+}
+main {
+    display: flex;
+}
+.content {
+    padding-top: 50px;
+}
+body {
+    max-width: 1200px;
+    margin: auto;
+}
+.navigation {
+    background-color: rgb(17, 74, 231);
+    width: 15%;
+    min-width: 100px;
+}
+.menu {
+    background-color: rgb(241, 218, 8);
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.mainText {
+    width: 85%;
+    min-width: 300px;
+}
+.boxes {
+    width: 100%;
+    display: flex;
+	min-height: 50px;
+}
+.box {
+    width: 33.3%;
+}
+.box1 {
+    background-color: rgb(45, 94, 44); 
+}
+.box2 {
+    background-color: rgb(60, 139, 59); 
+}
+.box3 {
+    background-color: rgb(46, 179, 44); 
+}
+.centered {
+    width: 150px;
+	position: absolute;
+	height: 150px;
+	background-color: rgba(42, 196, 175, 0.562);
+}
+@media screen and (max-width: 768px) {
+	main {
+		display: block;
+	}
+	.navigation{
+		display: flex;
+		width: 100%;
+		max-height: 50px;
+		min-height: 50px;
+    }
+    .mainText {
+        width: 100%;
+    }
+	.menu {
+		margin-bottom: 5px;
+	}
+	.boxes {
+        display: block;
+              
+    }
+    .box {
+        width: 100%;min-height: 50px;
+    }
+}
