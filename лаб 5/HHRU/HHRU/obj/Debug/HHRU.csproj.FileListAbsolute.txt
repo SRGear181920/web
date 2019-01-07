@@ -1,0 +1,9 @@
+C:\Users\User\Desktop\HHRU\HHRU\bin\Debug\HHRU.exe.config
+C:\Users\User\Desktop\HHRU\HHRU\obj\Debug\HHRU.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\HHRU\HHRU\bin\Debug\HHRU.exe
+C:\Users\User\Desktop\HHRU\HHRU\bin\Debug\HHRU.pdb
+C:\Users\User\Desktop\HHRU\HHRU\bin\Debug\Newtonsoft.Json.dll
+C:\Users\User\Desktop\HHRU\HHRU\bin\Debug\Newtonsoft.Json.pdb
+C:\Users\User\Desktop\HHRU\HHRU\bin\Debug\Newtonsoft.Json.xml
+C:\Users\User\Desktop\HHRU\HHRU\obj\Debug\HHRU.exe
+C:\Users\User\Desktop\HHRU\HHRU\obj\Debug\HHRU.pdb
