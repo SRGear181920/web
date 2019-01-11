@@ -57,17 +57,20 @@ document.addEventListener("DOMContentLoaded", function (event) {
         var neighboursCount = 0;
         var checkX = [-1, 0, 1];
         var checkY = [-1, 0, 1];
-        if (x == 0) checkX = [0, 1];
-        else if (x == squares.lenght - 1) checkX = [0, -1]
-        if (y == 0) checkY = [0, 1];
-        else if (y == squares[x].lenght - 1) checkY = [0, -1];
-        for (var i = 0; i < checkX.lenght; i++) {
-            for (var j = 0; j < checkY.lenght; j++) {
-                if (checkX[i] != 0 || checkY[j] != 0)
+        if (x === 0) checkX = [0, 1];
+        else if (x === squares.length - 1) checkX = [0, -1]
+        if (y === 0) checkY = [0, 1];
+        else if (y === squares[x].length - 1) checkY = [0, -1];
+        console.info(checkY);
+        for (var i = 0; i < checkX.length; i++) {
+            for (var j = 0; j < checkY.length; j++) 
+                if (checkX[i] != 0 || checkY[j] != 0){
                     if (squares[x + checkX[i]][y + checkY[j]])
                         neighboursCount++;
             }
         }
+
+
         if (squares[x][y] && (neighboursCount > 3 || neighboursCount < 2))
             return { "x": x * squareSize, "y": y * squareSize, actionName: emptyActionName };
         else if (!squares[x][y] && neighboursCount == 3)
